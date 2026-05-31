@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warung Makan Prima Rasa</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    
+    background:#f8f5ef;
+    color:#222;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#fff;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#a52a2a;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+/* Hero */
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px;
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("1000181031.jpg");
+
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:65px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:13px 30px;
+    background:#c0392b;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#96281b;
+}
+
+/* Section */
+section{
+    padding:70px 8%;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+    color:#8b1e1e;
+}
+
+/* Menu */
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#a52a2a;
+}
+
+.price{
+    font-size:20px;
+    font-weight:700;
+    color:#27ae60;
+}
+
+/* Contact */
+.contact{
+    background:#222;
+    color:white;
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+.hero-content h1{
+font-size:42px;
+}
+.hero-content p{
+font-size:16px;
+}
+nav{
+flex-direction:column;
+gap:15px;
+}
+}
+</style>
+</head>
+<body>
+
+<nav>   
+<div class="logo">
+    PRIMA RASA</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#kontak">Kontak</a></li>
+</ul>
+</nav>
+<section class="hero">
+<div class="hero-content">
+    <img src="gambar/img 1.png" alt="Logo Prima Rasa" style="width:250px; margin-bottom:50px;">
+<h1>Warung Makan Prima Rasa</h1>
+<p>Masakan Enak • Harga Bersahabat • Pelayanan Terbaik</p>
+<a href="#menu" class="btn">Lihat Menu</a>
+</div>
+
+</section>
+<section id="menu">
+<h2 class="title">Daftar Menu</h2>
+
+<div class="menu-grid">
+
+<div class="card">
+<h3>Nasi Ayam Goreng Lalapan</h3>
+<div class="price">Rp 33.000</div>
+</div>
+
+<div class="card">
+<h3>Nasi Campur Ayam</h3>
+<div class="price">Rp 18.000</div>
+</div>
+
+<div class="card">
+<h3>Nasi Campur Rendang</h3>
+<div class="price">Rp 22.000</div>
+</div>
+
+<div class="card">
+<h3>Nasi Campur Ikan</h3>
+<div class="price">Rp 18.000</div>
+</div>
+
+<div class="card">
+<h3>Nasi Soto Ayam</h3>
+<div class="price">Rp 18.000</div>
+</div>
+
+<div class="card">
+<h3>Nasi Goreng</h3>
+<div class="price">Rp 18.000</div>
+</div>
+
+<div class="card">
+<h3>Nasi Goreng Mawut</h3>
+<div class="price">Rp 23.000</div>
+</div>
+
+<div class="card">
+<h3>Capcay</h3>
+<div class="price">Rp 22.000</div>
+</div>
+
+<div class="card">
+<h3>Bakso Telur</h3>
+<div class="price">Rp 20.000</div>
+</div>
+
+<div class="card">
+<h3>Bakso Urat</h3>
+<div class="price">Rp 15.000</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="title">Minuman</h2>
+
+<div class="menu-grid">
+
+<div class="card">
+<h3>Es Nutrisari</h3>
+<div class="price">Rp 5.000</div>
+</div>
+
+<div class="card">
+<h3>Es Teh</h3>
+<div class="price">Rp 5.000</div>
+</div>
+
+<div class="card">
+<h3>Es Jeruk</h3>
+<div class="price">Rp 5.000</div>
+</div>
+
+<div class="card">
+<h3>Es Sirup</h3>
+<div class="price">Rp 5.000</div>
+</div>
+
+<div class="card">
+<h3>Es Susu</h3>
+<div class="price">Rp 8.000</div>
+</div>
+
+</div>
+</section>
+
+<section class="contact" id="kontak">
+<h2 class="title" style="color:white;">Kontak & Lokasi</h2>
+<br>
+
+<a href="https://wa.me/+6282144408331?text=Halo%20Warung%20Makan%20Prima%20Rasa,%20saya%20ingin%20memesan%20makanan."
+class="btn">
+📱 Pesan via WhatsApp
+</a>
+
+<p>📞 No HP / WhatsApp : 0821-4440-8331</p>
+
+<p>📍 Lokasi : JL.R.SUPRAPTO, DEPAN POLRES SUMBA TIMUR</p>
+
+<p>🕒 Buka Setiap Hari</p>
+
+<p>08.00 - 21.00 WITA</p>
+
+</section>
+
+<footer>
+© 2015 Warung Makan Prima Rasa 
+</footer>
+
+</body>
+</html>
