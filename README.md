@@ -175,8 +175,7 @@ gap:15px;
 <body>
 
 <nav>   
-<div class="logo">
-    PRIMA RASA</div>
+<div class="logo">PRIMA RASA</div>
 
 <ul>
 <li><a href="#home">Home</a></li>
