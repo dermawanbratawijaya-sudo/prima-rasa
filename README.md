@@ -185,7 +185,7 @@ gap:15px;
 </nav>
 <section class="hero">
 <div class="hero-content">
-    <img src="gambar/img 1.png" alt="Logo Prima Rasa" style="width:250px; margin-bottom:50px;">
+    <img src="gambar/img 1.pn" alt="Logo Prima Rasa" style="width:250px; margin-bottom:50px;">
 <h1>Warung Makan Prima Rasa</h1>
 <p>Masakan Enak • Harga Bersahabat • Pelayanan Terbaik</p>
 <a href="#menu" class="btn">Lihat Menu</a>
